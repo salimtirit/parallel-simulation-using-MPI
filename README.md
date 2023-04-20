@@ -16,7 +16,7 @@ The simulation of the game is done in parallel using Python and the MPI library.
 
 ## Running
 To run a Python code like game.py, use the following command:
-```
+```bash
 mpiexec -n <P> python game.py input.txt output.txt
 ```
 
